@@ -1,9 +1,0 @@
-{
-  "build": {
-    "builder": "DOCKERFILE"
-  },
-  "deploy": {
-    "startCommand": "python3 device_manager.py",
-    "healthcheckPath": "/api/status"
-  }
-}
